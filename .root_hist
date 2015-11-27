@@ -1,0 +1,471 @@
+TH2F h("hist","histogrom test", 100,0,1000,100,0,100);
+for (int i=0; i<1000; i++){h.Fill(i,sqrt(i));}
+h.Draw()
+.>outfile.txt
+for (int i=0; i<1000; i++){printf("%d %f\n",i,sqrt(i));}
+.>
+^Z
+TTree t("tree", "tree test")
+Double_t x,y;
+q
+.q
+vim
+.vim
+.q
+#include <fstream.h>
+#include<fstream>
+ifstream data("test.dat");
+double x
+double x;
+while (data >> x)h1.Fill(x);
+data.close();
+h1.Draw();
+.h include
+.help include
+.q
+TH1S h1("name","title",150,-10,20);
+#include <fstream> 
+ifstream data("test.dat");
+double x;
+while (data >> x)h1.Fill(x);
+data.close();
+h1.Draw();
+h1.Draw("E");
+h1.Fit("gaus");
+h1.Fit("expo")
+gStyle->SetOptFit();
+h1.Fit("pol3");
+h1.Fit("pol3");
+h1.Fit("gaus");
+h1.Draw();
+.q
+1+1
+pi
+q
+.q
+.help
+.q
+TF1 *f1=new TF1("f1","sin(x)", 0.0,2.0*TMath::Pi());
+f1->Draw();
+TF1 *f1=new TF1("f1","arctan(x)", 0.0,2.0*TMath::Pi());
+TF1 *f1=new TF1("f2","arctan(x)", 0.0,2.0*TMath::Pi());
+TF1 *f2=new TF1("f2","arctan(x)", 0.0,2.0*TMath::Pi());
+TF1 *f2=new TF1("f2","tan(x)", 0.0,2.0*TMath::Pi());
+TF1 *f3=new TF1("f3","tan(x)", 0.0,2.0*TMath::Pi());
+f3->Draw();
+f3->Draw();
+.quit
+.ls
+.q
+TFile *_file0 = TFile::Open("Hoge01.root")
+.ls
+c1->Draw();
+c1->Rebin();
+.q
+std::cout << 3.14
+auto a=3;
+std::cout << a
+std::cout << a;
+cout <<3
+cout << a
+a
+sqrt(2)
+3**3
+3./2
+r=3
+r
+pow(3.1,2)
+pow(3.1,2);
+pow(3.1,2)
+x=3
+y=2
+z=5
+sqrt(x*x+y*y+z*z)
+root
+PI
+Tmass::PI
+TMath::PI
+TMath::PI()
+17.5*15
+.q
+(160+260)*1e-9*341*44
+_
+(160+260)*1e-9*341*44*60
+*60
+(160+260)*1e-9*341*44*60*60
+.q
+double x[100]={};
+x[3]
+double y[100]={};
+.q
+.x plot_tmp.cc
+TGraphErrors(
+)
+.q
+.x plot_tmp.cc
+.q
+.x plot_tmp.cc
+.q
+.x plot_tmp.cc
+T=70062
+N=17553
+N/29.4/T
+sqrt(N)/29.4/T
+.q
+.x plot_tmp.cc
+.p
+.q
+.x plot_tmp.cc
+.q
+.x plot_tmp.cc
+.q
+1/454557
+1./454557.
+.q
+.x plot_tmp.cc
+100/44.2
+.q
+.x plot_tmp.cc
+.q
+.x plot_MDT.cc
+4**4
+3**2
+.x plot_MDT.cc
+.q
+.x plot_MDT.cc
+c1->SetTitle("Muon Decay Time");
+.q
+.x plot_MDT.cc
+.q
+.x plot_MDT.cc
+tg->FitPanel()
+.q
+.q
+/q
+.q
+.x plot_MDT.cc
+.q
+.x plot_MDT.cc
+.q
+1/4.061e5
+1./3.311e4
+ap=1/(4.061e5+3.311e4)
+am=1/(4.061e5-3.311e4)
+am=1/(4.061e5)
+am=1/(4.061e5-3.311e4)
+a=1/(4.061e5)
+ap-a
+am-a
+aa=(ap+am)/2
+aa-ap
+aa-am
+am-a
+_*2
+(am-a)*2
+a-(am-a)*2
+.q
+.x plot_ME.cc
+.q
+.x plot_ME.cc
+.q
+100/45.23
+;q
+.q
+.x plot_ME.cc
+7/45
+7./45.
+.q
+7/45
+7./45
+.q
+.x plot_EE.cc
+.q
+.x plot_EE.cc
+.q
+.x plot_EE.cc
+double rx[1000];
+double ry[1000];
+int i =0;
+int j=0;
+for (j=0;j<1000;j++){rx[j]=j/1000;ry[j]=4*rx[j]*rx[j]*(3*(1-rx[j])+2*0.75/3.*(4*rx[j]-3.))};
+for (j=0;j<1000;j++){rx[j]=j/1000;ry[j]=4*rx[j]*rx[j]*(3*(1-rx[j])+2*0.75/3.*(4*rx[j]-3.));};
+TGraph *tg2 = new TGraph(j,rx,ry);
+tg2->Draw("AC");
+tg2->Draw("APC");
+.q
+.x plot_EE.cc
+double rx[1000];
+double ry[1000];
+int j=0;
+for (j=0;j<1000;j++){rx[j]=j/1000;ry[j]=4*rx[j]*rx[j]*(3*(1-rx[j])+2*0.75/3.*(4*rx[j]-3.));};
+y[100]
+y[200]
+for (j=0;j<1000;j++){rx[j]=j/1000;ry[j]=4*j/1000*j/1000*(3*(1-j/1000)+2*0.75/3.*(4*j/1000-3.));};
+y[100]
+double j=0;
+.q
+.x plot_EE.cc
+double rx[1000];
+double ry[1000];
+double j =0;
+for (j=0;j<1000;j++){rx[j]=j/1000.;ry[j]=4*j/1000.*j/1000.*(3.*(1-j/1000)+2.*0.75/3.*(4.*j/1000-3.));};
+for (j=0;j<1000;j++){rx[j]=j/1000.;ry[j]=4.*j/1000.*j/1000.*(3.*(1-j/1000)+2.*0.75/3.*(4.*j/1000-3.));};
+for (j=0.;j<1000.;j++){rx[j]=j/1000.;ry[j]=4.*j/1000.*j/1000.*(3.*(1-j/1000)+2.*0.75/3.*(4.*j/1000-3.));};
+.q
+.x plot_EE.cc
+.q
+.x plot_EE.cc
+.q
+.x plot_EE.cc
+.q
+.x plot_EE.cc
+.q
+.x plot_EE.cc
+.q
+.x plot_EE.cc
+.q
+.x plot_EE.cc
+.ls
+.ls
+.q
+.x plot_EE.cc
+.q
+.demo
+.x plot_MDT.cc
+.q
+.x plot_MDT.cc
+.q
+.x plot_EE.cc
+.q
+.x plot_EE1.cc
+.q
+.x plot_MDT.cc
+x[0]
+y[0]
+.q
+.x plot_MDT.cc
+.q
+.x plot_MDT.cc
+.q
+.x plot_MDT.cc
+.q
+.x plot_MDT.cc
+1/3.5
+.q
+160*340+260*44
+65840e-9*3600
+.q
+.x plot_MDT.cc
+.q
+.x plot_MDT.cc
+y[1]
+y[1]=0
+:q
+/q
+.q
+.x plot_MDT.cc
+1/4.4
+1/4.6
+.q
+.x plot_MDT.cc
+1/3.4499
+.q
+.x plot_MDT.cc
+1/3.564
+.q
+.x plot_MDT.cc
+.q
+.x plot_MDT.cc
+.q
+.x plot_MDT.cc
+.q
+.x plot_MDT.cc
+.q
+e=3.311e4
+1/e/e
+1/4.061e5
+.q
+9.12e-10/2.46e-6
+x=2.462e-6
+1/e/e*x
+e=3.311e4
+1/e/e*x
+1/x/x*e
+1/x/x*e*e
+x=4.062e5
+e
+x
+1/e/e*x
+1/e/e
+1/x
+1/e/e*x*x
+1/x/x*e
+1/e/e
+1/e/e*x
+1/x/x*e
+1/x
+/q
+.q
+q
+/q
+.q
+.q
+.x benchmarks.C
+.q
+G=6.67408e-11
+pi
+PI
+PI=3.14159
+3/8/PI/G
+3./8./PI/G
+3./8./PI/G*1e4
+G
+H=100.*1000./3.086e22
+3.*H*H/8./PI/G*1e4
+H
+a=3.*H*H/8./PI/G*1e4
+a*0.6748
+.q
+0.16*0.84
+0.13/0.25
+.q
+.x plot_data.cc
+.q
+.x plot_data.cc
+.q
+.x plot_data.cc
+.q
+.x plot_data.cc
+/
+cd
+.cd
+.help
+.q
+.x plot_data.cc
+.q
+.x plot_data.cc
+.q
+.x plot_data.cc
+.q
+.x plot_data.cc
+.q
+.x plot_data.cc
+.q
+.x plot_data.cc
+.q
+.x plot_data.cc
+.q.q
+.x plot_data.cc
+273.15-198
+.q.q
+.x plot_data.cc
+-170+273.15
+.q
+pow(2,3)
+pow(2,3).q
+.q
+.x plot_data.cc
+.q
+1/(3/7/pow(3,3)+1)
+1./(3/7/pow(3,3)+1)
+1./(3./7./pow(3,3)+1.)
+a=1./(3./7./pow(3,3)+1.)
+1-a
+a=1./(3./7./pow(5,3)+1.)
+1-a
+sqrt(7.*0.3/8.)
+0.6748/3.086e17
+A=7.*3.*0.3*pow(2.187e-18,2)/8
+sqrt(A/3.)
+.q
+.x plot_data.cc
+.q
+273.15/175
+273.15-175
+-273.15+103
+.q
+.help
+ls
+.q
+.x plot_data.cc
+double t0(double h){
+return 6.51e9/h;}
+double t0(double h){return 6.51e9/h;}
+.q
+h=0.67
+6.51e9/h
+h=0.68
+6.51e9/h
+h=0.66
+6.51e9/h
+.q
+ln(0)
+log(0)
+log(1)
+log(100)
+log(0.0072/1.65)/-0.8e-9
+t=log(0.0072/1.65)/-0.8e-9
+6.51e9/t
+.q
+.x plot_data.cc
+.x plot_data.cc
+.q
+.x plot_data.cc
+1/2
+x[100]
+x[50]
+x[55]
+x[60]
+x[70]
+x[69]
+p1=0.0728241-0.00594426
+p0=0.465146-0.634624
+1<2
+p1*x[67]+p0>y[67]
+p1*x[66]+p0>y[66]
+p1*x[65]+p0>y[65]
+p1*x[64]+p0>y[64]
+x[64]
+.q
+.x plot_data.cc
+p0=-1.83992+0.0818097
+p1=0.0260621+0.000973988
+p1*x[64]+p0<y[40]
+p1*x[40]+p0<y[40]
+x[50]
+p1*x[50]+p0<y[50]
+p1*x[49]+p0<y[49]
+p1*x[48]+p0<y[48]
+x[49]
+.q
+.log
+t=log(0.0072/1.65)/-0.8e-9
+h=0.67
+6.51e9/h
+h=0.66
+6.51e9/h
+h=0.68
+6.51e9/h
+log(0.0072/1.65)/(-0.97+0.15)/1e-9
+6.51/6.63
+6.51/7.63
+.q
+Ome=2.47e-5
+T=2.725
+k=8.6e-5
+e=k*T
+e=3*k*T
+e/Ome
+ sqrt(2/Ome*e)
+ sqrt(2/2.846e-1)
+a=e/Ome
+ sqrt(2/a)
+e
+Ome
+a
+sqrt(a/2)
+h=sqrt(45.)
+h=sqrt(2/90)
+h=sqrt(2./90.)
+sqrt(2/a)
+.q
