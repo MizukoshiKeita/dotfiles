@@ -133,7 +133,7 @@ $.
 
 # Registers:
 "0	LINE	0
-		tg->GetXaxis()->SetTitle("Steps");
+	ln -sf ~/.dotfiles/.zcompdump ~/
 "1	LINE	0
 					std::cout << (j+1)/2 << "\t" << (xp-xm+yp-ym)/2 <<std::endl;
 "2	LINE	0
@@ -163,25 +163,29 @@ $.
 "w	CHAR	0
 	I%j
 ""-	CHAR	0
-	Biography
+	 
 
 # File marks:
 'V  1  0  ~/Documents/report/StaticicalMechanics.txt
-'0  1  0  ~/.dotfiles/.viminfo
-'1  1  0  ~/.dotfiles/.vim
-'2  6  0  ~/.dotfiles/dotfileslink.sh
-'3  134  12  ~/.zshrc
-'4  5  0  ~/Documents/gittutor/mysite-remote/.git/COMMIT_EDITMSG
-'5  20  0  ~/Documents/gittutor/mysite-remote/gitnote.txt
-'6  15  35  ~/Documents/gittutor/mysite-remote/gitnote.txt
-'7  10  44  ~/Documents/gittutor/mysite-remote/index.html
-'8  11  0  ~/Documents/gittutor/mysite-remote/gitnote.txt
-'9  9  37  ~/Documents/gittutor/mysite-remote/index.html
+'0  10  0  ~/.dotfiles/README
+'1  8  0  ~/.dotfiles/dotfileslink.sh
+'2  10  13  ~/.dotfiles/.git/COMMIT_EDITMSG
+'3  1  0  ~/.dotfiles/.viminfo
+'4  1  0  ~/.dotfiles/.vim
+'5  134  12  ~/.zshrc
+'6  5  0  ~/Documents/gittutor/mysite-remote/.git/COMMIT_EDITMSG
+'7  20  0  ~/Documents/gittutor/mysite-remote/gitnote.txt
+'8  15  35  ~/Documents/gittutor/mysite-remote/gitnote.txt
+'9  10  44  ~/Documents/gittutor/mysite-remote/index.html
 
 # Jumplist (newest first):
+-'  10  0  ~/.dotfiles/README
+-'  1  0  ~/.dotfiles/README
+-'  8  0  ~/.dotfiles/dotfileslink.sh
+-'  6  9  ~/.dotfiles/dotfileslink.sh
+-'  10  13  ~/.dotfiles/.git/COMMIT_EDITMSG
 -'  1  0  ~/.dotfiles/.viminfo
 -'  1  0  ~/.dotfiles/.vim
--'  6  0  ~/.dotfiles/dotfileslink.sh
 -'  1  0  ~/.dotfiles/dotfileslink.sh
 -'  134  12  ~/.zshrc
 -'  172  0  ~/.zshrc
@@ -274,20 +278,41 @@ $.
 -'  35  16  ~/Documents/report/physicExperiment3/Calc/DrawRect.java
 -'  79  0  ~/Documents/report/physicExperiment3/Calc/DrawRect.java
 -'  40  60  ~/Documents/report/physicExperiment3/Calc/DrawRect.java
--'  14  25  ~/Documents/report/physicExperiment3/Calc/DrawRect.java
--'  69  2  ~/Documents/report/physicExperiment3/Calc/DrawRect.java
--'  67  0  ~/Documents/report/physicExperiment3/Calc/DrawRect.java
 
 # History of marks within files (newest to oldest):
+
+> ~/.dotfiles/README
+	"	10	0
+	^	9	6
+	.	9	4
+	+	9	4
+
+> ~/.dotfiles/dotfileslink.sh
+	"	8	0
+	^	7	37
+	.	7	36
+	+	9	0
+	+	6	0
+	+	7	0
+	+	6	29
+	+	7	35
+	+	6	29
+	+	7	36
+
+> ~/.dotfiles/.git/COMMIT_EDITMSG
+	"	10	13
+	^	1	20
+	.	1	19
+	+	6	3
+	+	7	20
+	+	4	7
+	+	1	19
 
 > ~/.dotfiles/.viminfo
 	"	1	0
 
 > ~/.dotfiles/.vim
 	"	1	0
-
-> ~/.dotfiles/dotfileslink.sh
-	"	6	0
 
 > ~/.zshrc
 	"	134	12
@@ -952,13 +977,6 @@ $.
 
 > ~/Documents/Lectures/SSP1.
 	"	1	0
-
-> ~/.dotfiles/.git/COMMIT_EDITMSG
-	"	7	10
-	^	5	0
-	.	4	20
-	+	3	3
-	+	4	20
 
 > ~/.vimrc
 	"	206	0
@@ -1846,19 +1864,3 @@ $.
 	+	9	13
 	+	1	6
 	+	9	3
-
-> ~/roottutor/maketest01.cc
-	"	11	7
-	^	12	19
-	.	11	7
-	+	1	12
-	+	11	13
-	+	12	16
-	+	15	4
-	+	9	13
-	+	1	6
-	+	15	0
-	+	15	0
-	+	14	5
-	+	12	18
-	+	11	7
